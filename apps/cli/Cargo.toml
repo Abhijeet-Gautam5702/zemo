@@ -1,0 +1,12 @@
+[package]
+name = "cli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = {version="1.52.3",features=["full"]}
+common = { path = "../../crates/common" }
+discovery = { path = "../../crates/discovery" }
+transport = { path = "../../crates/transport" }
+session = { path = "../../crates/session" }
+protocol = { path = "../../crates/protocol" }

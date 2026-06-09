@@ -1,0 +1,14 @@
+[package]
+name = "zemo"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = [
+    "crates/discovery",
+    "crates/transport",
+    "crates/session",
+    "crates/common",
+    "crates/protocol",
+    "apps/cli"
+]
